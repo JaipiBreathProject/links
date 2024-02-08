@@ -48,9 +48,33 @@ body {
 }
 
 .profile__bio__name {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--c-text);
+}
+
+.typing-demo {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 12ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 .profile__bio__title {
@@ -245,4 +269,4 @@ h2 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map *
