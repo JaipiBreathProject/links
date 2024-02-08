@@ -6,17 +6,17 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
       name="description"
-      content="Link produk dan resource yang dibagikan oleh Dimas Miftah (@dimasmiftah)"
+      content="Link resource yang dibagikan oleh Jaipi Breath"
     />
-    <meta name="author" content="Dimas Miftah" />
+    <meta name="author" content="Jaipi Breath" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@dimasmfth" />
-    <meta name="twitter:creator" content="@dimasmfth" />
-    <meta property="og:url" content="https://links.dimasmiftah.me" />
-    <meta property="og:title" content="Links | Dimas Miftah" />
+    <meta name="twitter:site" content="@Jaipi Breath" />
+    <meta name="twitter:creator" content="@Jaipi Breath" />
+    <meta property="og:url" content="https://raw.githubusercontent.com/JaipiBreathProject/vless-jaipibreath/main/Logo_Breath.png" />
+    <meta property="og:title" content="Links | Vless" />
     <meta
       property="og:description"
-      content="Link produk dan resource yang dibagikan oleh Dimas Miftah (@dimasmiftah)"
+      content="Link resource yang dibagikan oleh Jaipi Breath"
     />
     <meta
       property="og:image"
@@ -36,7 +36,7 @@
     <link href="styles/style.css" rel="stylesheet" />
     <title>Links | Vless</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
     <script defer src="./app.js" type="module"></script>
     <script
       async
@@ -54,10 +54,47 @@
       />
       <div class="profile__bio">
       <div class="profile__bio__name">
-        <div class="typing-demo">
-      Jaipi Breath
+        <div id="text">
     </div>
       </div>
+      <script>
+      const words = ["Jaipi Breath |"];
+      let i = 0;
+      let counter;
+      function typeNow() {
+         let word = words[i].split("");
+         var loopTyping = function() {
+            if (word.length > 0) {
+               document.getElementById('text').innerHTML += word.shift();
+            } else {
+               deleteNow();
+               return false;
+            };
+            counter = setTimeout(loopTyping, 130);
+         };
+         loopTyping();
+      };
+      function deleteNow() {
+         let word = words[i].split("");
+         var loopDeleting = function() {
+            if (word.length > 0) {
+               word.pop();
+               document.getElementById('text').innerHTML = word.join("");
+            } else {
+               if (words.length > (i + 1)) {
+                  i++;
+               } else {
+                  i = 0;
+               };
+               typeNow();
+               return false;
+            };
+            counter = setTimeout(loopDeleting, 130);
+         };
+         loopDeleting();
+      };
+      typeNow();
+   </script>
         <p class="profile__bio__title">IT Student</p>
       </div>
     </section>
