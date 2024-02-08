@@ -80,7 +80,7 @@
       {
         "title": "Command Prompt",
         "url": "",
-        "body": "ipconfig/flushdns | ping.8.8.8.8-t",
+        "body": "ipconfig/flushdns | ping 8.8.8.8 -t",
         "tag": ["PROJECTS", "CMD"],
         "published_date": "2024-02-08"
       }
