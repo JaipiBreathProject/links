@@ -6,36 +6,35 @@
         "title": "Vless - Google Cloud Indonesia",
         "url": "https://jaipi-network-googlecloud-id.pages.dev/fb855570-97ee-4a2e-be54-11a3bc1f56e7",
         "body": "ISP Google Cloud Indonesia",
-        "tag": ["PROJECTS", "PROTOKOL V2RAY"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "PROTOKOL V2RAY"]
       },
       {
         "title": "Vless - Linode Indonesia",
         "url": "https://jaipi-breath-network-linode-id.pages.dev/fb855570-97ee-4a2e-be54-11a3bc1f56e7",
         "body": "ISP Linode Indonesia",
-        "tag": ["PROJECTS", "PROTOKOL V2RAY"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "PROTOKOL V2RAY"]
+        
       },
       {
         "title": "Vless - Zhejiang Taobao Network Indonesia",
         "url": "https://jaipi-breath-network-zhejiangtaobaonetwork-id.pages.dev/fb855570-97ee-4a2e-be54-11a3bc1f56e7",
         "body": "ISP Zhejiang Taobao Network Indonesia ",
-        "tag": ["PROJECTS", "PROTOKOL V2RAY"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "PROTOKOL V2RAY"]
+        
       },
       {
         "title": "Vless - Digital Ocean Singapore",
         "url": "https://jaipi-breath-network-digitalocean-sg.pages.dev/fb855570-97ee-4a2e-be54-11a3bc1f56e7",
         "body": "ISP Digital Ocean Singapore",
-        "tag": ["PROJECTS", "PROTOKOL V2RAY"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "PROTOKOL V2RAY"]
+        
       },
       {
         "title": "Vless - Amazon Singapore",
         "url": "https://jaipi-breath-network-amazon-sg.pages.dev/fb855570-97ee-4a2e-be54-11a3bc1f56e7",
         "body": "ISP Amazon Singapore",
-        "tag": ["PROJECTS", "PROTOKOL V2RAY"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "PROTOKOL V2RAY"]
+        
       },
       {
         "title": "Daddy (Dancing Buddy)",
@@ -81,8 +80,7 @@
         "title": "Command Prompt",
         "url": "",
         "body": "ipconfig/flushdns | ping 8.8.8.8 -t",
-        "tag": ["PROJECTS", "CMD"],
-        "published_date": "2024-02-08"
+        "tag": ["PROJECTS", "CMD"]
       }
     ]
   },
